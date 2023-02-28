@@ -1,0 +1,12 @@
+<div style="text-align: center;">
+<h1>COMPONENTE CRONOMETRO BRAYAN</h1>
+<app-cronometro [inicio]="15" (multiplo10)="actualizar($event)"></app-cronometro>
+<h2>evento</h2>
+<h3>{{mensaje}}</h3>
+<br>
+<app-cronometro [inicio]="50" (multiplo50)="actualizar50($event)"></app-cronometro>
+<h2>evento</h2>
+<h3>{{mensaje2}}</h3>
+</div>
+
+<!-- otro que inicie en 50 y que cada 100 se actualice -->
